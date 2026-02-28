@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Segment Results Analysis",
+    "finding": "Adjusted operating profit decreased by 46.9% from 6350.0 in 2021 to 3375.0 in 2022",
+    "implication": "This significant decline may indicate a challenging business environment or increased competition",
+    "supporting_data": {
+      "2021": 6350.0,
+      "2022": 3375.0
+    },
+    "suggested_viz": "Bar chart comparing adjusted operating profit between 2021 and 2022"
+  },
+  {
+    "title": "New Business Profit (EEV) Trends",
+    "finding": "New business profit decreased by 56.0% from 4969.0 in 2021 to 2184.0 in 2022",
+    "implication": "This decline may be a result of decreased demand or lower margins, and could impact future revenue",
+    "supporting_data": {
+      "2021": 4969.0,
+      "2022": 2184.0
+    },
+    "suggested_viz": "Line chart showing new business profit from 2020 to 2022"
+  }
+]
