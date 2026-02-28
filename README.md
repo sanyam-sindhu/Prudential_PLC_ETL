@@ -71,24 +71,34 @@ A handful of line items are worded differently between the two reports. These ge
 
 ## How to Run
 
-
+```bash
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
+```
 
-# run the ETL
+### Run the ETL
+
+```bash
 python etl_extract.py
+```
 
-# charts
+### Charts
+
+```bash
 cd scripts
 python insight_geographic_segments.py
 python insight_new_business_profit.py
 python insight_eev_equity_bridge.py
 python insight_capital_solvency.py
+```
 
-# LLM insights
+### LLM Insights
+
+```bash
 export GROQ_API_KEY="gsk_..."
 python generate_insights_llm.py
+```
 
 
 ## Dependencies
